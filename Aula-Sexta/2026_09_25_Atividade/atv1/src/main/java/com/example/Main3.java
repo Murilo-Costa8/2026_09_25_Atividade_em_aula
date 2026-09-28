@@ -14,7 +14,7 @@ public class Main3 {
             return true;
         }
 
-        //Verifica se esta fora de ordem. no caso o elemento atual do vetor é menor ou igual ao próximo elemento?
+        //Verifica se esta fora de ordem. No caso, o elemento atual do vetor é menor ou igual ao próximo elemento?
         if (vetor[posicao] > vetor[posicao+1]) {
             return false;
         }
